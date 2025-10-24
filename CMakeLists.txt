@@ -13,6 +13,6 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 file(GLOB SRC_FILES src/*.cpp)
-add_executable(main ${SRC_FILES})
-target_compile_features(main PRIVATE cxx_std_17)
-target_link_libraries(main PRIVATE SFML::Graphics)
+add_executable(space_invaders ${SRC_FILES})
+target_compile_features(space_invaders PRIVATE cxx_std_17)
+target_link_libraries(space_invaders PRIVATE SFML::Graphics SFML::Audio)
