@@ -4,7 +4,9 @@ This is the base code for the Space Invaders Code Challenge, where participants 
 
 ## Video of the base game
 
-![Demo of the project](video/space_invaders_base_gif.gif)
+<p align="center">
+  <img src="https://github.com/panu-kangas/space_invader_challenge_base_code/video/space_invaders_base_gif.gif" />
+</p>
 
 ## Features of base game
 
