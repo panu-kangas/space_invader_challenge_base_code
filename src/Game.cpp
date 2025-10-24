@@ -1,7 +1,5 @@
 #include "Game.hpp"
 
-#include <iostream>
-
 Game::Game() :
 	window(sf::VideoMode({800, 600}), "Space Invaders - Base Game Jam"),
 	player(375.0f, 550.0f) 

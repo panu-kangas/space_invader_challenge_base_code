@@ -30,10 +30,18 @@ void Player::update(float dt, sf::RenderWindow& window)
     for (auto& p : projectiles)
         p.update(dt);
 
-    projectiles.erase(
-        std::remove_if(projectiles.begin(), projectiles.end(),
-                       [&](const Projectile& p) { return p.isOffScreen(window); }),
-        projectiles.end());
+	int i = 0;
+	while (i < projectiles.size())
+	{
+		if (projectiles[i].isOffScreen(window))
+		{
+			std::swap(projectiles[i], projectiles.back());
+            projectiles.pop_back();
+            continue;
+		}
+		i++;
+	}
+
 }
 
 void Player::draw(sf::RenderWindow& window)
