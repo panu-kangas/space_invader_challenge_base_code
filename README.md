@@ -1,6 +1,6 @@
 # 👾 Space Invaders Code Challenge 👾
 
-This is the base code for the Space Invaders Code Challenge, where participants will refine a small bare bones game in just 10-12 hours.  
+This is the base code for the Space Invaders Code Challenge, where participants will refine a small bare bones game in just 10 hours.  
 
 ## Video of the base game
 
