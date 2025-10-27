@@ -1,4 +1,4 @@
-# 👾 Space Invaders Code Challenge 👾
+# 👾 Space Invaders 10 hour Code Challenge 👾
 
 This is the base code for the Space Invaders Code Challenge, where participants will refine a small bare bones game in just 10 hours.  
 
